@@ -28,7 +28,7 @@ sectionwrapper {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-emphasis: Bold;
     color: #52453c;
 }
@@ -39,6 +39,10 @@ h2 {
 
 p {
     font-size: 1.2rem;
+}
+
+a {
+    color: #52453c;
 }
 
 /*---- Generelle indstillinger  SLUT ------ */
@@ -62,6 +66,7 @@ p {
 header {
     /* position: absolute;*/
     width: 100vw;
+    overflow: hidden;
 
 }
 
@@ -69,18 +74,23 @@ header nav {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: flex-end;
+    float: right;
     padding: 3rem;
 }
 
 
 header nav a {
-    margin: 0;
-    padding: 3rem;
     text-decoration: none;
-    color: black;
+    color: #52453c;
     text-transform: uppercase;
-    text-decoration: bold;
+    font-weight: bold;
+
+}
+
+header a {
+    padding: 3rem;
+    margin: 1rem;
+    display: flex;
 
 
 }
@@ -136,12 +146,53 @@ header nav a:visited {
 
 }
 
-#om .col {
-    flex-basis: 400px;
+#om .col_img {
     flex-grow: 1;
+    flex-basis: 300px;
+
+
 }
 
+#om .col_txt {
+    flex-grow: 2;
+    flex-basis: 600px;
+}
+
+
 /****** om slut ******/
+
+/****** Instagram ******/
+
+#instagram h1 a {
+    align-items: center;
+    /** hjælp skal i midten? **/
+}
+
+#instagram .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#instagram .image {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 0 1rem 0.6rem;
+    margin: 0.8rem;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#instagram .image img {
+    width: 100%;
+}
+
+
+
+/****** Instagram slut ******/
 
 /***footer***/
 
@@ -271,8 +322,6 @@ header nav a:visited {
     #menuknap {
         display: none;
 
-
-
     }
 
     #menu.hidden {
@@ -291,9 +340,6 @@ header nav a:visited {
     header nav {
         flex-direction: row;
         justify-content: center;
-
-
-
 
     }
 
