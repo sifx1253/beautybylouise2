@@ -172,8 +172,8 @@ header nav a:visited {
     position: absolute;
     height: 5.3vw;
     width: 5.2vw;
-    bottom: -10vw;
-    right: 8vw;
+    bottom: 1vw;
+    right: 1vw;
 
 }
 
@@ -183,8 +183,8 @@ header nav a:visited {
     position: absolute;
     height: 5.3vw;
     width: 5vw;
-    bottom: -17vw;
-    right: 8vw;
+    bottom: 4vw;
+    right: 1vw;
 
 }
 
