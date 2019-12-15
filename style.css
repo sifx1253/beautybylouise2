@@ -247,16 +247,12 @@ header nav a:visited {
     background-color: #E0DDD7;
 }
 
-#booking .mulighed1 {
-    background-image: url(xd/mulighed.png);
-    background-size: cover;
-    position: absolute;
-    height: 3vw;
-    width: 26vw;
-    top: 18vw;
-    left: 9vw;
 
+#booking .img {
+    flex-grow: 1;
+    flex-basis: 200px;
 }
+
 
 
 
