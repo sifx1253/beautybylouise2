@@ -46,13 +46,15 @@ p {
     width: 14vw;
     background-size: cover;
     position: absolute;
-    top: -0.7vw;
+    top: -0.5vw;
     left: 0vw;
 }
 
 header {
     width: 100vw;
-    background-color: #563D31;
+    background-color: rgba(86, 61, 49, 0.65);
+    position: fixed;
+    overflow: hidden;
 
 }
 
@@ -105,6 +107,16 @@ header nav a:visited {
     background-size: cover;
     background-position: 67% 10%;
     max-width: none;
+}
+
+#logo_splash {
+    background-image: url(billeder/logo.svg);
+    height: 30vw;
+    width: 60vw;
+    background-size: cover;
+    position: absolute;
+    top: 20vw;
+    left: 20vw;
 }
 
 #splash_produkter {
