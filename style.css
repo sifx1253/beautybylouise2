@@ -269,30 +269,33 @@ header nav a:visited {
 
 
 
-/*
-#produkter .col {
+
+#produkter .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 
 
 }
 
-#produkter .left,
-#produkter .right {
-    flex-basis: 300px;
+#produkter .col {
+    flex-basis: 400px;
     flex-grow: 1;
+    padding: 1rem;
 }
 
-#produkter .center {
-    width: 0.5vw;
+
+
+#produkter .bottom {
+    border: 1px solid #E0DDD7;
+    margin: 1px;
+    background-color: #E0DDD7;
+    text-align: center;
+    padding: 10px;
+    width: 300px
 }
 
-#produkter img {
-    width: 100%;
-
-}
 */
-
 /***Kontakt***/
 
 #kontakt #sectionwrapper {
