@@ -313,14 +313,48 @@ header nav a:visited {
 
 }
 
+
+
+
+/******Behandlinger*****/
+
+
+#behandlinger sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/*
+#behand1 {
+    flex-direction: ;
+
+}
+*/
+
+#behandlinger .col {
+    flex-grow: 1;
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+#behandlinger img {
+    width: 20%;
+}
+
+
+
+/******Behandlinger SLUT*****/
+
+
 /******Ansigtsbehandlinger*****/
 
 
 
-.anbefaling {
-    font-weight: bold;
-
-}
 
 #ansigtsbehandling .sectionwrapper {
     display: flex;
@@ -334,11 +368,26 @@ header nav a:visited {
 
 }
 
+
+
 .box {
     flex-grow: 1;
     flex-basis: 300px;
-    border: 1px solid black;
+    border: 1px solid #E0DDD7;
+    margin: 1.5px;
+    background-color: #E0DDD7;
 }
+
+.box p {
+    margin: 10px;
+}
+
+.box a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/******Ansigtsbehandlinger SLUT*****/
 
 /******Online booking*****/
 #booking h1 {
@@ -346,10 +395,12 @@ header nav a:visited {
 }
 
 
-#booking .img {
-    flex-grow: 1;
-    flex-basis: 200px;
+#booking img {
+
+    width: 30%;
 }
+
+/******Online booking SLUT*****/
 
 
 /**** media INDSTILLINGER **/
