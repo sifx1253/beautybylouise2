@@ -30,7 +30,6 @@ sectionwrapper {
 h1 {
     font-size: 2.5rem;
     text-emphasis: Bold;
-    color: #52453c;
 }
 
 h2 {
@@ -54,21 +53,22 @@ a {
 
 
 #logo {
-    background-image: url(xd/beautybylouise.png);
-    height: 11vw;
-    width: 15vw;
+    background-image: url(billeder/logo.svg);
+    height: 7vw;
+    width: 14vw;
     background-size: cover;
     position: absolute;
-    top: -3vw;
-    left: 2vw;
+    top: -0.7vw;
+    left: 0vw;
 
 
 }
 
 header {
-    position: absolute;
+    position: fixed;
     width: 100vw;
-    overflow: hidden;
+    /*    overflow: hidden;*/
+    background-color: #563D31;
 
 }
 
@@ -85,15 +85,13 @@ header nav a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    color: rosybrown;
-
 }
 
 
 header a {
     padding: 0.5rem;
     display: flex;
-    text-decoration-color: white;
+    color: white;
 }
 
 
@@ -147,7 +145,7 @@ header nav a:visited {
 }
 
 #velkommen .farve {
-    background-color: #eadfc9;
+    background-color: #E0DDD7;
 }
 
 #velkommen .col {
@@ -215,15 +213,20 @@ header nav a:visited {
 
 /***footer***/
 
-
-
 #footer {
+    padding: 3rem;
+    margin: 1rem;
+    background-color: #563D31;
+}
+
+#footer h1 {
+    color: white;
+}
+
+#footer .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 3rem;
-    margin: 1rem;
-
 
 }
 
@@ -231,6 +234,16 @@ header nav a:visited {
 
     border-bottom-style: solid;
     border-bottom-width: thin;
+    color: white;
+    text-indent: 2em;
+}
+
+#footer .kontakt p {
+    color: white;
+}
+
+#footer .kontakt a {
+    color: #E0DDD7;
 }
 
 #footer .aabningstider .kontakt {
@@ -246,22 +259,22 @@ header nav a:visited {
 .insta {
     background-image: url(billeder/ig_logo.svg);
     background-size: cover;
-    position: absolute;
+
     height: 5.3vw;
     width: 5.2vw;
-    bottom: 1vw;
-    right: 1vw;
+    bottom: 5vw;
+    right: 5vw;
 
 }
 
 .face {
     background-image: url(billeder/fb_logo.svg);
     background-size: cover;
-    position: absolute;
+
     height: 5.3vw;
     width: 5vw;
-    bottom: 4vw;
-    right: 1vw;
+    bottom: 5vw;
+    right: 12vw;
 
 }
 
@@ -419,7 +432,7 @@ header nav a:visited {
 
 
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:800px) {
 
     #menuknap {
         display: none;
@@ -431,36 +444,24 @@ header nav a:visited {
         opacity: 1;
     }
 
-    /*
-    #menu li {
-        display: inline-block;
-    }
-*/
     header a {
 
-        display: inline;
+        display: inline-block;
+        letter-spacing: 1px;
 
     }
-}
-
-@media only screen and (min-width:800px) {
 
     header nav {
-        display: flex;
-        flex-direction: row;
-        padding: 0.6rem;
 
+        padding: 1rem;
     }
 
 
     header nav a {
         padding: 0.3rem;
         background-color: transparent;
-        margin: 0.2rem;
+        margin: 0.8rem;
         text-decoration: none;
         color: black;
-
-
     }
-
 }
