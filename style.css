@@ -300,6 +300,35 @@ header nav a:visited {
 
 }
 
+/******Ansigtsbehandlinger*****/
+
+
+
+.anbefaling {
+    font-weight: bold;
+
+}
+
+#ansigtsbehandling .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#col_box {
+    /*    flex-grow: 1;*/
+    flex-basis: 300px;
+    display: flex;
+
+    justify-content: space-between;
+    border: 1px solid black;
+
+}
+
+.box {
+    flex-grow: 1;
+    flex-basis:
+}
+
 /******Online booking*****/
 #booking h1 {
     background-color: #E0DDD7;
