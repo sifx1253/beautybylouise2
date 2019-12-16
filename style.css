@@ -2,14 +2,12 @@
 
 * {
     box-sizing: border-box;
-
 }
 
 body {
     margin: 0 auto;
     padding: 0;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-
 }
 
 img {
@@ -18,10 +16,8 @@ img {
 
 
 section {
-    /*    max-width: 1200px;*/
     width: 100%;
     margin: 0 auto;
-    padding: 1rem;
 }
 
 sectionwrapper {
@@ -41,17 +37,8 @@ p {
     font-size: 1.2rem;
 }
 
-/*
-a {
-    color: #52453c;
-}
-*/
-
 /*---- Generelle indstillinger  SLUT ------ */
-
-
 /***--------------Menu-----------***/
-
 
 #logo {
     background-image: url(billeder/logo.svg);
@@ -61,8 +48,6 @@ a {
     position: absolute;
     top: -0.7vw;
     left: 0vw;
-
-
 }
 
 header {
@@ -107,8 +92,6 @@ header nav a:visited {
     display: inline-block;
     color: white;
     margin: 0.5rem;
-
-
 }
 
 /********menu slut *******/
@@ -144,7 +127,8 @@ header nav a:visited {
 }
 
 #velkommen .farve {
-    background-color: #E0DDD7;
+    background-color: #8b6b52;
+    /*    padding: 1rem;*/
 }
 
 #velkommen .col {
@@ -159,19 +143,18 @@ header nav a:visited {
 #om .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 #om .col_img {
     flex-grow: 1;
     flex-basis: 300px;
-
-
 }
 
 #om .col_txt {
     flex-grow: 2;
-    flex-basis: 600px;
+    flex-basis: 300px;
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 
 
@@ -179,10 +162,16 @@ header nav a:visited {
 
 /****** Instagram ******/
 
-#instagram h1 a {
-    align-items: center;
-    /** hjælp skal i midten? **/
+#instagram h1 {
+    text-align: center;
 }
+
+#instagram a {
+    align-items: center;
+    text-decoration: none;
+    color: #8b6b52;
+}
+
 
 #instagram .sectionwrapper {
     display: flex;
@@ -265,11 +254,6 @@ header nav a:visited {
     margin: 1rem;
     height: 5.3vw;
     width: 5.2vw;
-    /*
-    bottom: 7vw;
-    right: 5vw;
-*/
-
 }
 
 .face {
@@ -279,16 +263,15 @@ header nav a:visited {
     margin-left: 1rem;
     height: 5.3vw;
     width: 5.2vw;
-    /*
-    bottom: 5vw;
-    right: 12vw;
-*/
+}
+
+.andcopy {
+    color: white;
+    text-align: center;
+    padding: 1rem;
 }
 
 /*****produkter****/
-
-
-
 
 #produkter .sectionwrapper {
     display: flex;
