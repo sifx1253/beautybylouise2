@@ -238,7 +238,7 @@ header nav a:visited {
 }
 
 .insta {
-    background-image: url(billeder/insta.png);
+    background-image: url(billeder/ig_logo.svg);
     background-size: cover;
     position: absolute;
     height: 5.3vw;
@@ -249,7 +249,7 @@ header nav a:visited {
 }
 
 .face {
-    background-image: url(billeder/facebook.png);
+    background-image: url(billeder/fb_logo.svg);
     background-size: cover;
     position: absolute;
     height: 5.3vw;
