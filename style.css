@@ -314,19 +314,17 @@ header nav a:visited {
     flex-wrap: wrap;
 }
 
-#col_box {
-    /*    flex-grow: 1;*/
-    flex-basis: 300px;
-    display: flex;
 
-    justify-content: space-between;
-    border: 1px solid black;
+#col_box {
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
 .box {
     flex-grow: 1;
-    flex-basis:
+    flex-basis: 300px;
+    border: 1px solid black;
 }
 
 /******Online booking*****/
