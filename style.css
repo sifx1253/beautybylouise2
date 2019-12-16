@@ -313,33 +313,35 @@ header nav a:visited {
 */
 /***Kontakt***/
 
-#kontakt #sectionwrapper {
+
+#kontakt {
+    padding: 4rem;
+    margin: 4rem;
+}
+
+#kontakt .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 3rem;
+
+    padding: 5rem;
     margin: 1rem;
-
-
+    border-color: #563D31;
+    border-style: solid;
 }
 
 #kontakt .aabningstider p {
 
     border-bottom-style: solid;
     border-bottom-width: thin;
+    word-spacing: 15rem;
 }
 
 #kontakt .aabningstider .kontakt {
-
     flex-grow: 1;
     flex-basis: 300px;
-    flex-wrap: wrap;
     padding: 1.6rem;
-
-
 }
-
-
 
 
 /******Behandlinger*****/
@@ -350,13 +352,6 @@ header nav a:visited {
     flex-wrap: wrap;
 
 }
-
-/*
-#behand1 {
-    flex-direction: ;
-
-}
-*/
 
 #behandlinger .col {
     flex-grow: 1;
@@ -370,7 +365,11 @@ header nav a:visited {
 
 }
 
-
+#behandlinger h2,
+a {
+    text-decoration: none;
+    color: black;
+}
 
 
 
