@@ -125,6 +125,16 @@ header nav a:visited {
     max-width: none;
 }
 
+#splash_produkter {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(billeder/splash_produkter.jpg);
+    background-size: cover;
+    background-position: 67% 10%;
+    max-width: none;
+}
+
+
 /********splash slut *******/
 
 /********velkommen *******/
