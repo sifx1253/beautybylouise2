@@ -18,7 +18,7 @@ img {
 
 
 section {
-    max-width: 1200px;
+    /*    max-width: 1200px;*/
     margin: 0 auto;
     padding: 1rem;
 }
@@ -89,11 +89,13 @@ header nav a {
 
 }
 
+
 header a {
     padding: 0.5rem;
     display: flex;
     text-decoration-color: white;
 }
+
 
 header nav a:visited {
     color: #ffffff;
@@ -142,6 +144,10 @@ header nav a:visited {
 #velkommen .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
+}
+
+#velkommen .farve {
+    background-color: #eadfc9;
 }
 
 #velkommen .col {
@@ -319,7 +325,7 @@ header nav a:visited {
 /******Behandlinger*****/
 
 
-#behandlinger sectionwrapper {
+#behandlinger .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
 
@@ -335,16 +341,16 @@ header nav a:visited {
 #behandlinger .col {
     flex-grow: 1;
     flex-basis: 200px;
-    display: flex;
+    /*
     flex-direction: column;
     justify-content: space-between;
+*/
+    margin: 0 0.1rem;
 
 
 }
 
-#behandlinger img {
-    width: 20%;
-}
+
 
 
 
@@ -415,7 +421,7 @@ header nav a:visited {
 
     }
 
-    #menu.hidden {
+    .hidden {
         transform: translateX(0);
         opacity: 1;
     }
@@ -425,7 +431,11 @@ header nav a:visited {
         display: inline-block;
     }
 */
+    header a {
 
+        display: inline;
+
+    }
 }
 
 @media only screen and (min-width:800px) {
