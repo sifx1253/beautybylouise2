@@ -53,7 +53,7 @@ p {
 
 header {
     width: 100vw;
-    background-color: #c7b49e;
+    background-color: #563D31;
 }
 
 header nav {
@@ -256,7 +256,7 @@ header nav a:visited {
 
 #footer {
     padding: 2rem;
-    background-color: #c7b79e;
+    background-color: #563D31;
 }
 
 
@@ -456,6 +456,27 @@ a {
 .box a {
     font-weight: bold;
     text-decoration: none;
+}
+
+
+#splash_ansigt {
+    width: 100vw;
+    height: 100vh;
+    background-image: ;
+    background-size: cover;
+    background-position: 67% 10%;
+    max-width: none;
+
+}
+
+#overskrift_ansigt {
+    position: relative;
+    left: 60vw;
+    top: 40vw;
+    color: white;
+    font-size: 4rem;
+    margin: 0;
+
 }
 
 /******Ansigtsbehandlinger SLUT*****/
