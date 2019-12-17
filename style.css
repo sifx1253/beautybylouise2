@@ -111,7 +111,7 @@ header nav a:visited {
     height: 30vw;
     width: 60vw;
     background-size: cover;
-    position: absolute;
+    position: relative;
     top: 20vw;
     left: 20vw;
 }
@@ -213,7 +213,7 @@ header nav a:visited {
 /***footer***/
 
 #footer {
-    padding: 4rem;
+    padding: 2rem;
     background-color: #563D31;
 }
 
@@ -251,7 +251,7 @@ header nav a:visited {
 #footer .aabningstider .kontakt .some {
     flex-grow: 1;
     flex-basis: 500px;
-    padding: 1.6rem;
+    padding: 1.2rem;
 }
 
 #footer .some {
@@ -319,8 +319,10 @@ header nav a:visited {
 
 
 #kontakt {
+    /*
     padding: 4rem;
     margin: 4rem;
+*/
 }
 
 #kontakt .sectionwrapper {
@@ -360,7 +362,7 @@ header nav a:visited {
 #behandlinger .col {
     flex-grow: 1;
     flex-basis: 200px;
-    margin: 0 0.1rem;
+    margin: 0.5rem 0.1rem;
 
 
 
