@@ -126,12 +126,13 @@ header nav a:visited {
     max-width: none;
 }
 
-#splash_produkter h1 {
+#overskrift h1 {
     position: relative;
     left: 60vw;
     top: 40vw;
     color: white;
     font-size: 4rem;
+    margin: 0;
 
 }
 
