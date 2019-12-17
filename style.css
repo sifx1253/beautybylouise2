@@ -312,7 +312,12 @@ header nav a:visited {
     width: 300px
 }
 
-*/
+#produkter img {
+    width: 100%;
+    height: 80%
+}
+
+
 /***Kontakt***/
 
 
