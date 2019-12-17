@@ -52,10 +52,7 @@ p {
 
 header {
     width: 100vw;
-    background-color: rgba(86, 61, 49, 0.65);
-    position: fixed;
-    overflow: hidden;
-
+    background-color: #563D31;
 }
 
 header nav {
